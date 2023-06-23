@@ -1,0 +1,33 @@
+# CipherEncription
+In cryptography, a Caesar cipher, also known as shift cipher, is one of the simplest and most widely known encryption techniques.   It is a type of substitution cipher in which each letter in the plaintext is replaced by a letter of some fixed number of positions down the alphabet. 
+
+# Description
+For instance, here is a Caesar cipher using a left rotation of three places, equivalent to a right shift of 23 (the shift parameter is used as the key):
+
+Plain:  ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+Cipher: XYZABCDEFGHIJKLMNOPQRSTUVW
+
+When encrypting, a person looks up each letter of the message in the “plain” line and writes down the corresponding letter in the “cipher” line.
+
+Plaintext:  THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG
+
+Ciphertext: QEB NRFZH YOLTK CLU GRJMP LSBO QEB IXWV ALD
+
+Deciphering is done in reverse, with a right shift of 3.
+# Setup
+Install the required packages to be able to run the codes locally.
+Windows:
+(Python should be added to the Path variable of environment):
+
+  python3 -m venv venv; venv\Scripts\activate; python -m pip install --upgrade pip; python -m pip install -r requirements.txt  
+
+Linux & MacOs:
+python3 -m venv venv; source venv/bin/activate; python -m pip install --upgrade pip; python -m pip install -r requirements.txt
+
+The both long command-lines have a same structure, they pipe multiple commands using the symbol ; but you may manually execute them one after another.
+
+Create the Python's virtual environment that isolates the required libraries of the project to avoid conflicts;
+Activate the Python's virtual environment so that the Python kernel & libraries will be those of the isolated environment;
+Upgrade Pip, the installed libraries/packages manager to have the up-to-date version that will work correctly;
+Install the required libraries/packages listed in the requirements.txt file so that it will be allow to import them into the python's scripts and notebooks without any issue.
