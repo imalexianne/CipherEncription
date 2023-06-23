@@ -21,7 +21,9 @@ Deciphering is done in reverse, with a right shift of 3.
 ENCRYPTION MODE ACTIVATED
 
 Enter the key: 4
+
 Enter the text to decrypt: lfhe
+
 PLAINTEXT: HBDA
 ## Setup
 Install the required packages to be able to run the evaluation locally.
